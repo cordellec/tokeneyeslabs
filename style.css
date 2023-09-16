@@ -19,8 +19,8 @@ li {
 
 h1 {
   font-family: "Pulpen Snowman Regular", sans-serif;
-  color: #000000;
-  text-stroke: 16px white;
+  color: #fffff;
+  text-stroke: 16px, white;
   font-size: 3rem;
   margin-top: 3rem;
 }
