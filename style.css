@@ -20,7 +20,7 @@ li {
 h1 {
   font-family: "Pulpen Snowman Regular", sans-serif;
   color: #000000;
-  text-stroke: 16px black;
+  text-stroke: 16px white;
   font-size: 3rem;
   margin-top: 3rem;
 }
@@ -31,7 +31,7 @@ body {
   margin: 0;
   padding: 0;
   /* Use linear-gradient for the background */
-  background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+  background: linear-gradient(to bottom, #a1c4fd, #c2e9fbgit);
   color: #333;
   font-family: Arial, sans-serif;
   display: flex;
