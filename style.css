@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Pulpen Snowman Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Pulpen Snowman Regular"),
+    url("PulpenSnowman-axdpo.woff") format("woff");
+}
+/* Reset default margin and padding */
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: "Pulpen Snowman Regular", sans-serif;
+  color: #000000;
+  text-stroke: 16px black;
+  font-size: 5rem;
+  margin-top: 3rem;
+}
+
+/* Set a background color and text color */
+/* Set a background gradient and text color */
+body {
+  margin: 0;
+  padding: 0;
+  /* Use linear-gradient for the background */
+  background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+  color: #333;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+/* Center the header horizontally ebedee */
+
+/* Center the logo and navigation horizontally */
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social-buttons a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Center the main content */
+main {
+  text-align: center;
+  padding: 40px 0;
+  flex-grow: 1; /* Allow the main content to grow and push the footer down */
+}
+
+/* Center the mint container horizontally */
+.mint-container {
+  padding: 20px;
+  display: inline-block;
+  margin: 20px;
+}
+
+iframe {
+  margin: 20px;
+}
+
+/* Style the mint button */
+.mint-button:hover {
+  background-color: #ff3300;
+}
+
+.logo-container {
+  text-align: center; /* Center align the logos */
+  margin: 20px; /* Add some space between logos and mint container */
+}
+
+img {
+  margin: 10px;
+}
+/* Center the footer at the bottom */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: ##434343;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  color: black;
+  font-family: "Pulpen Snowman Regular", sans-serif;
+  font-size: 1rem;
+}
