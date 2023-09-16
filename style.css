@@ -31,7 +31,7 @@ body {
   margin: 0;
   padding: 0;
   /* Use linear-gradient for the background */
-  background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+  background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
   color: #333;
   font-family: Arial, sans-serif;
   display: flex;
