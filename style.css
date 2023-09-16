@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "Pulpen Snowman Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Pulpen Snowman Regular"),
-    url("PulpenSnowman-axdpo.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Pulpen Snowman Light";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Pulpen Snowman Light"),
-    url("PulpenSnowmanLight-Ea2Jz.woff") format("woff");
-}
 /* Reset default margin and padding */
 body,
 h1,
@@ -26,7 +11,7 @@ li {
 }
 
 h1 {
-  font-family: "Pulpen Snowman Regular";
+  font-family: "Grandstander", sans-serif;
   color: #000000;
   text-stroke: 16px, white;
   font-size: 3rem;
