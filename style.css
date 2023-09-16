@@ -5,6 +5,14 @@
   src: local("Pulpen Snowman Regular"),
     url("PulpenSnowman-axdpo.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Pulpen Snowman Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Pulpen Snowman Light"),
+    url("PulpenSnowmanLight-Ea2Jz.woff") format("woff");
+}
 /* Reset default margin and padding */
 body,
 h1,
